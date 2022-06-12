@@ -1,0 +1,16 @@
+#include <stdio.h>
+int a , b ,c,d,e;
+int main()
+{
+    printf("the first number:",a);
+    scanf("%d",&a);
+    printf("Enter the second number:",b);
+    scanf("%d\n",&b);
+    c = a + b;
+    printf("%d+%d=%d",a,b,c);
+   printf("enter the third number:",d);
+   scanf("%d\n",&d);
+   e = c + d;
+   printf("%d+%d=%d",c,d,e);
+    return 0;
+}
